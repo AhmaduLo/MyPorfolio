@@ -1,0 +1,264 @@
+@media screen and (min-width: 900px) {
+  nav{
+    display: none;
+  }
+  section {
+    background-color: rgb(252, 252, 252);
+
+    .container {
+      width: 100%;
+      display: flex;
+
+      .nav-left {
+        height: 99vh;
+        display: flex;
+        align-items: center;
+
+        ul {
+          list-style: none;
+
+          li {
+            margin-bottom: 95px;
+            border-radius: 5px;
+            box-shadow:  0 1px 2px rgb(0 0 0 / 30%);
+            cursor: pointer;
+            width: 120px;
+            height: 30px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: -75px;
+            transition: 0.5s;
+          }
+          li:hover {
+            margin-left: -5px;
+            transition: 0.5s;
+            background-color: black;
+            color: white;
+          }
+        }
+      }
+
+      //---------------------------------------------------------
+      .cont_info_perso{
+        display: flex;
+        align-items: center;
+      }
+
+      .info-persso {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:  0 1px 2px rgb(0 0 0 / 40%),
+                      0 1px 2px rgb(0 0 0 / 40%);
+
+
+        .nom-photo {
+          width: 40%;
+         
+
+          .nom .my-name {
+            text-align: center;
+            font-size: 25px;
+            text-decoration: underline;
+            font-family: anton;
+          }
+
+          .nom .metier {
+            text-align: center;
+            font-size: 15px;
+            text-decoration: underline;
+            font-family: Rokkitt;
+           
+            
+          }
+
+          .cont-photo {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            // filter: drop-shadow(-3px -3px 2px rgb(167, 167, 167))
+            // drop-shadow(5px 5px 5px rgb(206, 25, 25))
+            // drop-shadow( 15px 15px 15px rgb(197, 24, 24));
+          }
+
+          .photo {
+            width: 67%;
+            overflow: hidden;
+
+            img {
+              width: 100%;
+              height: 100%;
+              cursor: pointer;
+              transition: 0.9s;
+            }
+
+            img:hover {
+              transform: scale(1.2);
+            }
+          }
+        }
+
+        //------------------------------------------
+        .biographie {
+          //border: 1px solid red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 35%;
+
+          .cont-biograf {
+            text-align: center;
+
+            .logo {
+              font-size: 150px;
+            }
+          }
+        }
+      }
+      //------------------------------------
+      .reseau {
+        //border: 1px solid;
+        position: relative;
+
+        ul {
+          display: flex;
+          list-style: none;
+          position: absolute;
+          bottom: 0;
+
+          li {
+            margin-left: 60px;
+            font-size: 23px;
+            cursor: pointer;
+            transition: 0.7s;
+
+            a {
+              color: black;
+            }
+          }
+          li:hover {
+            transform: scale(1.4);
+          }
+        }
+      }
+    }
+  }
+}
+
+//-------------format mobile---------------------------
+@media screen and (max-width: 900px) {
+  section {
+    display: none;
+  
+  }
+
+  nav {
+    background-image: url(../../assets/Bamba_LVMH-Frederic-Muzard-SDLR-5381-1005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+   
+    .container-nav{
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+    
+
+    .nav-left {
+      // background-color: red;
+
+      ul {
+        list-style: none;
+
+        li {
+          margin-bottom: 95px;
+          border-radius: 5px;
+          box-shadow:  0 1px 2px rgb(0 0 0 / 30%);
+          cursor: pointer;
+          width: 120px;
+          height: 30px;
+          font-size: 20px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-left: -75px;
+          transition: 0.5s;
+        }
+        li:hover {
+          margin-left: -5px;
+          transition: 0.5s;
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+
+    .cont-cont{
+      width: 100%;
+    }
+
+    .container {
+      height: 100vh;
+      
+      
+
+      .name-profession {
+        text-align: center;
+        color: white;
+
+        span:nth-child(1) {
+          font-family: anton;
+          font-size: 29px;
+          text-decoration: underline;
+        }
+        span:nth-child(2) {
+          font-family: Rokkitt;
+          font-size: 23px;
+        }
+      }
+
+      .definition-profession{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 80%;
+
+        span{
+          border-radius: 5px;
+          width: 280px;
+          height: 130px;
+          color: white;
+          font-size: 20px;
+          background-color: rgba(0, 0, 0, 0.466);
+        }
+      }
+
+      .contact{
+        color: white;
+        text-align: center;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+
+        p:hover{
+          color: blue;
+        }
+      }
+     
+    }
+  }
+}

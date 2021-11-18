@@ -1,0 +1,39 @@
+nav {
+  //border: 1px solid;
+  width: 20%;
+  height: 99vh;
+  display: flex;
+  align-items: center;
+  
+.container-nav{
+    //border: 1px solid red;
+
+    ul{
+        list-style: none;
+       
+        
+        
+
+        li{
+            position: relative;
+            font-size: 18px;
+            cursor: pointer;
+            margin-bottom: 85px;
+            border: 1px solid;
+            width: 120px;
+            display: flex;
+            justify-content: space-around;
+            left: -80px;
+            transition: 0.4s;
+            
+        }
+        li:hover{
+            left: -3px;
+            background-color: black;
+            color: white;
+            transition: 0.4s;
+        }
+    }
+}
+ 
+}
