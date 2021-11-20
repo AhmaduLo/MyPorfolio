@@ -16,19 +16,20 @@ export class SkillsComponent implements OnInit {
     this.info_langage[0]={
      url:"https://cdn-icons-png.flaticon.com/512/919/919827.png",
      name_langage: "Html",
-     definiton:"html",
+     definiton:"Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.",
+     
     }
 
     this.info_langage[1]={
       url:"https://cdn-icons-png.flaticon.com/512/732/732007.png",
       name_langage:"css",
-      definiton:" css",
+      definiton:"Mon experience en tant que designer me permet de pousser le langage à son plein potentiel. J'utilise surtout le préprocesseur Sass.",
     }
 
     this.info_langage[2]={
       url:"https://cdn-icons-png.flaticon.com/512/919/919828.png",
       name_langage:"Javascript",
-      definiton:" javascript",
+      definiton:" Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.",
     }
 
     this.info_langage[3]={
@@ -67,12 +68,16 @@ export class SkillsComponent implements OnInit {
       definiton:" wordpress",
     }
 
+    // this.info_langage[9]={
+    //   url:"https://cdn-icons-png.flaticon.com/512/168/168810.png",
+    //   name_langage:"Git",
+    //   definiton:" wordpress",
+    // }
+
 
   }
 
   look_langage(i:any){
-    //this.style_btn_logo =! this.style_btn_logo;
-    //console.log(this.info_langage[i].name_langage);
     this.langage = this.info_langage[i];
    this.block_definition =! this.block_definition;
     
