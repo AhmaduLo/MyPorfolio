@@ -14,26 +14,26 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
     this.info_langage[0]={
-     url:"https://cdn-icons-png.flaticon.com/512/919/919827.png",
+     url:"https://img.icons8.com/ios/50/000000/html.png",
      name_langage: "Html",
      definiton:"Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.",
      
     }
 
     this.info_langage[1]={
-      url:"https://cdn-icons-png.flaticon.com/512/732/732007.png",
+      url:"https://img.icons8.com/ios/50/000000/css3.png",
       name_langage:"css",
       definiton:"Mon experience en tant que designer me permet de pousser le langage à son plein potentiel. J'utilise surtout le préprocesseur Sass.",
     }
 
     this.info_langage[2]={
-      url:"https://cdn-icons-png.flaticon.com/512/919/919828.png",
+      url:"https://img.icons8.com/ios/50/000000/javascript--v2.png>",
       name_langage:"Javascript",
       definiton:" Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.",
     }
 
     this.info_langage[3]={
-      url:"https://cdn-icons-png.flaticon.com/512/226/226777.png",
+      url:"https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png",
       name_langage:"Java",
       definiton:" java",
     }
@@ -45,13 +45,13 @@ export class SkillsComponent implements OnInit {
     }
 
     this.info_langage[5]={
-      url:"",
+      url:"https://img.icons8.com/ios/50/000000/angularjs.png",
       name_langage:"Angular",
       definiton:" angular",
     }
 
     this.info_langage[6]={
-      url:"https://cdn-icons-png.flaticon.com/512/288/288882.png",
+      url:"https://img.icons8.com/ios/50/000000/mysql.png",
       name_langage:"MySQL",
       definiton:"mysql",
     }
@@ -63,7 +63,7 @@ export class SkillsComponent implements OnInit {
     }
 
     this.info_langage[8]={
-      url:"https://cdn-icons-png.flaticon.com/512/168/168810.png",
+      url:"https://img.icons8.com/ios/50/000000/wordpress.png",
       name_langage:"wordpress",
       definiton:" wordpress",
     }
