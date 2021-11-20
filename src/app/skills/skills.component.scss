@@ -53,14 +53,16 @@
         .langage {
           display: flex;
           align-items: center;
+          justify-content: center;
           overflow: hidden;
+          border: 1px solid red;
 
           .logo-langage {
             background-color: white;
             cursor: pointer;
             width: 60%;
             height: 40px;
-            margin: 5px;
+            //margin: 5px;
             margin-bottom: 45px;
             display: flex;
             align-items: center;
