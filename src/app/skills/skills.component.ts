@@ -35,13 +35,13 @@ export class SkillsComponent implements OnInit {
     this.info_langage[3]={
       url:"https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png",
       name_langage:"Java",
-      definiton:" java",
+      definiton:"Le Java est un langage de programmation orienté objet que j'ai appris durant ma formation à Simplon. C'est mon deuxième langage et celui avec lequel je faisais mes parties Back-End dans mes projets. ",
     }
 
     this.info_langage[4]={
       url:"https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
       name_langage:"Bootstrap",
-      definiton:" bootstrap",
+      definiton:" Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des premières framework que j'ai utilisé pour le design de mes projets.",
     }
 
     this.info_langage[5]={
