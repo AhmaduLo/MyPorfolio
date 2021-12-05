@@ -1,28 +1,40 @@
 <section>
-    <div class="container">
-      <div class="nav-left">
-        <ul>
-          <li routerLink="/">
-            <span>Accueil</span
-            ><span><i class="fa fa-home" aria-hidden="true"></i></span>
-          </li>
-          <li routerLink="/web">
-            <span>Web</span
-            ><span><i class="fa fa-code" aria-hidden="true"></i></span>
-          </li>
-          <li routerLink="/skills">
-            <span>Skills</span
-            ><span><i class="fa fa-folder-open" aria-hidden="true"></i></span>
-          </li>
-          <li routerLink="/contact">
-            <span>Contact</span
-            ><span><i class="fa fa-phone" aria-hidden="true"></i></span>
-          </li>
-        </ul>
+  <div class="container">
+    <div class="nav-left">
+      <ul>
+        <li routerLink="/">
+          <span>Accueil</span
+          ><span><i class="fa fa-home" aria-hidden="true"></i></span>
+        </li>
+        <li routerLink="/web">
+          <span>Web</span
+          ><span><i class="fa fa-code" aria-hidden="true"></i></span>
+        </li>
+        <li routerLink="/skills">
+          <span>Skills</span
+          ><span><i class="fa fa-folder-open" aria-hidden="true"></i></span>
+        </li>
+        <li routerLink="/contact">
+          <span>Contact</span
+          ><span><i class="fa fa-phone" aria-hidden="true"></i></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="cont_info_perso">
+      <div class="info-persso">
+        
+        <div class="container_site" *ngFor="let site_info of site_infos">
+          <div class="photo_site">
+            <div class="anim_hover"></div>
+            <a href="{{site_info.lien}}">
+            <img [src]="site_info.url1" alt="">
+            <div class="nom_site">{{site_info.nom_site}}</div>
+          </a>
+          </div>
+        
+        </div>
       </div>
-      <div class="cont_info_langage">
-      
     </div>
-    </div>
-  </section>
-  
+  </div>
+</section>

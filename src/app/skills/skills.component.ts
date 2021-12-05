@@ -13,69 +13,57 @@ export class SkillsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.info_langage[0]={
-     url:"https://img.icons8.com/ios/50/000000/html.png",
-     name_langage: "Html",
-     definiton:"Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.",
+    this.info_langage= [
+    //   {
+    //  url:"https://img.icons8.com/ios/50/000000/html.png",
+    //  name_langage: "Html",
+    //  definiton:"",
      
-    }
-
-    this.info_langage[1]={
+    // },
+    {
       url:"https://img.icons8.com/ios/50/000000/css3.png",
-      name_langage:"css",
-      definiton:"Mon experience en tant que designer me permet de pousser le langage à son plein potentiel. J'utilise surtout le préprocesseur Sass.",
-    }
-
-    this.info_langage[2]={
+      name_langage:"Html/css",
+      definiton:"Pendant mes premières pas dans la programmation j'utilisais ces deux langages pour réaliser des sites statiques, mon expérience en tant que designer m'a permit de pousser le css à son plein potentiel. J'utilise surtout le préprocesseur Sass.",
+    },
+    {
       url:"https://img.icons8.com/ios/50/000000/javascript--v2.png>",
       name_langage:"Javascript",
-      definiton:" Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maitrise m'offre une liberte total dans la dynamisation de mes pages web.",
-    }
-
-    this.info_langage[3]={
+      definiton:" Le JavaScript est un langage de programmation qui permet d’implémenter des mécanismes complexes sur une page web. C'est mon premier langage et celui avec lequel je suis le plus à laise, sa maîtrise m'offre une liberté total dans la dynamisation de mes pages web.",
+    },
+    {
       url:"https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png",
       name_langage:"Java",
-      definiton:"Le Java est un langage de programmation orienté objet que j'ai appris durant ma formation à Simplon. C'est mon deuxième langage et celui avec lequel je faisais mes parties Back-End dans mes projets. ",
-    }
-
-    this.info_langage[4]={
+      definiton:"Le Java est un langage de programmation orienté objet que j'ai appris durant ma formation à Simplon. C'est mon deuxième langage et celui avec lequel je faisais les parties Back-End dans mes projets. ",
+    },
+    {
       url:"https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
       name_langage:"Bootstrap",
       definiton:" Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des premières framework que j'ai utilisé pour le design de mes projets.",
-    }
-
-    this.info_langage[5]={
+    },
+    {
       url:"https://img.icons8.com/ios/50/000000/angularjs.png",
       name_langage:"Angular",
-      definiton:" angular",
-    }
-
-    this.info_langage[6]={
+      definiton:"Angular est un Framework que j'ai utilisé pour réaliser des projets durant ma formation tel que : Shambles , Shop et mon portfolio.",
+    },
+    {
       url:"https://img.icons8.com/ios/50/000000/mysql.png",
       name_langage:"MySQL",
-      definiton:"mysql",
-    }
-
-    this.info_langage[7]={
+      definiton:"MySQL est un System de Gestion de Base de Donnée Relationnelle (SGDBR) que j'ai utilisé durant ma formation. ",
+    },
+    {
       url:"https://cdn-icons-png.flaticon.com/512/1933/1933855.png",
       name_langage:"Scrum",
-      definiton:" agile",
-    }
-
-    this.info_langage[8]={
+      definiton:" La méthode Agile est une méthodologie avec laquelle on a travaillé lors des projets réalisés en groupe.",
+    },
+    {
       url:"https://img.icons8.com/ios/50/000000/wordpress.png",
       name_langage:"wordpress",
-      definiton:" wordpress",
-    }
-
-    // this.info_langage[9]={
-    //   url:"https://cdn-icons-png.flaticon.com/512/168/168810.png",
-    //   name_langage:"Git",
-    //   definiton:" wordpress",
-    // }
-
-
+      definiton:" Wordpress est CMS qui m'a permis de réaliser un site de présentation pour mon passage du titre Pro.",
+    },
+    ]
   }
+
+  
 
   look_langage(i:any){
     this.langage = this.info_langage[i];
