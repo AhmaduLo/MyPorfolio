@@ -15,7 +15,7 @@ site_infos:any[]= [];
    this.site_infos[0] = {
       lien:"https://bambagaye-shop.netlify.app/",
       url1: "../../assets/Ecommerce - Google Chrome 05_12_2021 14_13_50.png",
-      nom_site:"Shope"
+      nom_site:"Shop"
     };
 
     this.site_infos[1] = {
