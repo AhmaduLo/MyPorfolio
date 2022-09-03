@@ -29,6 +29,11 @@ site_infos:any[]= [];
       url1: "../../assets/Document - Google Chrome 05_12_2021 16_45_37.png",
       nom_site:"Eye"
     };
+    this.site_infos[3] = {
+      lien:"https://intagration-site.netlify.app/",
+      url1: "../../assets/Document - Google Chrome 03_09_2022 17_46_46.png",
+      nom_site:"Integration site"
+    };
 
 
 
